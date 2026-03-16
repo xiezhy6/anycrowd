@@ -3,10 +3,10 @@
 <head>
   <meta charset="utf-8">
   <meta name="description"
-        content="Deformable Neural Radiance Fields creates free-viewpoint portraits (nerfies) from casually captured videos.">
-  <meta name="keywords" content="Nerfies, D-NeRF, NeRF">
+        content="AnyCrowd: Instance-Isolated Identity-Pose Binding for Arbitrary Multi-Character Animation.">
+  <meta name="keywords" content="AnyCrowd, Instance-Isolated, Identity-Pose Binding, Multi-Character Animation">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Nerfies: Deformable Neural Radiance Fields</title>
+  <title>AnyCrowd: Instance-Isolated Identity-Pose Binding for Arbitrary Multi-Character Animation</title>
 
   <!-- Global site tag (gtag.js) - Google Analytics -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-PYVRSFMDRL"></script>
@@ -32,7 +32,7 @@
   <link rel="stylesheet"
         href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
   <link rel="stylesheet" href="./static/css/index.css">
-  <link rel="icon" href="./static/images/favicon.svg">
+  <link rel="icon" href="./static/images/dance02.png" type="image/png">
 
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <script defer src="./static/js/fontawesome.all.min.js"></script>
@@ -42,7 +42,7 @@
 </head>
 <body>
 
-<nav class="navbar" role="navigation" aria-label="main navigation">
+<!-- <nav class="navbar" role="navigation" aria-label="main navigation">
   <div class="navbar-brand">
     <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false">
       <span aria-hidden="true"></span>
@@ -80,7 +80,7 @@
     </div>
 
   </div>
-</nav>
+</nav> -->
 
 
 <section class="hero">
@@ -88,38 +88,57 @@
     <div class="container is-max-desktop">
       <div class="columns is-centered">
         <div class="column has-text-centered">
-          <h1 class="title is-1 publication-title">Nerfies: Deformable Neural Radiance Fields</h1>
+          <h1 class="title is-1 publication-title">
+            <img src="./static/images/dance06.gif" alt="icon" class="title-icon">
+            AnyCrowd: Instance-Isolated Identity-Pose Binding for Arbitrary Multi-Character Animation
+          </h1>
           <div class="is-size-5 publication-authors">
             <span class="author-block">
-              <a href="https://keunhong.com">Keunhong Park</a><sup>1</sup>,</span>
+              <a href="https://xiezhy6.github.io/">Zhenyu Xie</a><sup>1</sup>,</span>
             <span class="author-block">
-              <a href="https://utkarshsinha.com">Utkarsh Sinha</a><sup>2</sup>,</span>
+              <a href="">Ji Xia</a><sup>1</sup>,</span>
             <span class="author-block">
-              <a href="https://jonbarron.info">Jonathan T. Barron</a><sup>2</sup>,
+              <a href="https://sites.google.com/view/michaelkampffmeyer">Michael Christian Kampffmeyer</a><sup>2</sup>,
             </span>
             <span class="author-block">
-              <a href="http://sofienbouaziz.com">Sofien Bouaziz</a><sup>2</sup>,
+              <a href="">Panwen Hu</a><sup>1</sup>,
             </span>
             <span class="author-block">
-              <a href="https://www.danbgoldman.com">Dan B Goldman</a><sup>2</sup>,
+              <a href="">Zehua Ma</a><sup>3</sup>,
             </span>
             <span class="author-block">
-              <a href="https://homes.cs.washington.edu/~seitz/">Steven M. Seitz</a><sup>1,2</sup>,
+              <a href="https://paulyzheng.github.io/about/">Yujian Zheng</a><sup>1</sup>,
             </span>
             <span class="author-block">
-              <a href="http://www.ricardomartinbrualla.com">Ricardo Martin-Brualla</a><sup>2</sup>
+              <a href="https://jingw193.github.io/wangjing/">Jing Wang</a><sup>3</sup>
+            </span>
+            <span class="author-block">
+              <a href="https://scholar.google.com/citations?user=I3kOhwwAAAAJ&hl=en">Zheng Chong</a><sup>3</sup>
+            </span>
+            <span class="author-block">
+              <a href="https://scholar.google.com/citations?user=G58T4dMAAAAJ&hl=zh-CN">Xujie Zhang</a><sup>3</sup>
+            </span>
+            <span class="author-block">
+              <a href="">Xianhang Cheng</a><sup>1</sup>
+            </span>
+            <span class="author-block">
+              <a href="https://scholar.google.com/citations?user=voxznZAAAAAJ&hl=zh-CN">Xiaodan Liang</a><sup>1,3</sup>
+            </span>
+            <span class="author-block">
+              <a href="https://scholar.google.com/citations?user=NFeigSoAAAAJ&hl=en">Hao Li</a><sup>1†</sup>
             </span>
           </div>
 
           <div class="is-size-5 publication-authors">
-            <span class="author-block"><sup>1</sup>University of Washington,</span>
-            <span class="author-block"><sup>2</sup>Google Research</span>
+            <span class="author-block"><sup>1</sup>Mohamed bin Zayed University of Artificial Intelligence,</span>
+            <span class="author-block"><sup>2</sup>University of Tromsø (UiT) – The Arctic University of  Norway</span>
+            <span class="author-block"><sup>3</sup>Shenzhen campus of Sun Yet-sen University</span>
           </div>
 
           <div class="column has-text-centered">
             <div class="publication-links">
               <!-- PDF Link. -->
-              <span class="link-block">
+              <!-- <span class="link-block">
                 <a href="https://arxiv.org/pdf/2011.12948"
                    class="external-link button is-normal is-rounded is-dark">
                   <span class="icon">
@@ -127,9 +146,9 @@
                   </span>
                   <span>Paper</span>
                 </a>
-              </span>
+              </span> -->
               <span class="link-block">
-                <a href="https://arxiv.org/abs/2011.12948"
+                <a href=""
                    class="external-link button is-normal is-rounded is-dark">
                   <span class="icon">
                       <i class="ai ai-arxiv"></i>
@@ -138,34 +157,34 @@
                 </a>
               </span>
               <!-- Video Link. -->
-              <span class="link-block">
-                <a href="https://www.youtube.com/watch?v=MrKrnHhk8IA"
+              <!-- <span class="link-block">
+                <a href=""
                    class="external-link button is-normal is-rounded is-dark">
                   <span class="icon">
                       <i class="fab fa-youtube"></i>
                   </span>
-                  <span>Video</span>
+                  <span>Code (Coming Soon)</span>
                 </a>
-              </span>
+              </span> -->
               <!-- Code Link. -->
               <span class="link-block">
-                <a href="https://github.com/google/nerfies"
+                <a href=""
                    class="external-link button is-normal is-rounded is-dark">
                   <span class="icon">
                       <i class="fab fa-github"></i>
                   </span>
-                  <span>Code</span>
+                  <span>Code (Coming Soon)</span>
                   </a>
               </span>
               <!-- Dataset Link. -->
-              <span class="link-block">
+              <!-- <span class="link-block">
                 <a href="https://github.com/google/nerfies/releases/tag/0.1"
                    class="external-link button is-normal is-rounded is-dark">
                   <span class="icon">
                       <i class="far fa-images"></i>
                   </span>
                   <span>Data</span>
-                  </a>
+                  </a> -->
             </div>
 
           </div>
@@ -175,7 +194,7 @@
   </div>
 </section>
 
-<section class="hero teaser">
+<!-- <section class="hero teaser">
   <div class="container is-max-desktop">
     <div class="hero-body">
       <video id="teaser" autoplay muted loop playsinline height="100%">
@@ -189,7 +208,7 @@
       </h2>
     </div>
   </div>
-</section>
+</section> -->
 
 
 <section class="hero is-light is-small">
@@ -198,54 +217,46 @@
       <div id="results-carousel" class="carousel results-carousel">
         <div class="item item-steve">
           <video poster="" id="steve" autoplay controls muted loop playsinline height="100%">
-            <source src="./static/videos/steve.mp4"
+            <source src="./static/videos/mp4_inthewild_results/inthewild_0_web.mp4"
                     type="video/mp4">
           </video>
         </div>
         <div class="item item-chair-tp">
           <video poster="" id="chair-tp" autoplay controls muted loop playsinline height="100%">
-            <source src="./static/videos/chair-tp.mp4"
+            <source src="./static/videos/mp4_inthewild_results/inthewild_1_web.mp4"
                     type="video/mp4">
           </video>
         </div>
-        <div class="item item-shiba">
-          <video poster="" id="shiba" autoplay controls muted loop playsinline height="100%">
-            <source src="./static/videos/shiba.mp4"
+        <div class="item item-steve">
+          <video poster="" id="steve" autoplay controls muted loop playsinline height="100%">
+            <source src="./static/videos/mp4_inthewild_results_webpage/inthewild_0_web.mp4"
                     type="video/mp4">
           </video>
         </div>
-        <div class="item item-fullbody">
-          <video poster="" id="fullbody" autoplay controls muted loop playsinline height="100%">
-            <source src="./static/videos/fullbody.mp4"
+        <div class="item item-chair-tp">
+          <video poster="" id="chair-tp" autoplay controls muted loop playsinline height="100%">
+            <source src="./static/videos/mp4_inthewild_results_appendix/inthewild_1_web.mp4"
                     type="video/mp4">
           </video>
         </div>
-        <div class="item item-blueshirt">
-          <video poster="" id="blueshirt" autoplay controls muted loop playsinline height="100%">
-            <source src="./static/videos/blueshirt.mp4"
+        <div class="item item-chair-tp">
+          <video poster="" id="chair-tp" autoplay controls muted loop playsinline height="100%">
+            <source src="./static/videos/mp4_inthewild_results_appendix/inthewild_0_web.mp4"
                     type="video/mp4">
           </video>
         </div>
-        <div class="item item-mask">
-          <video poster="" id="mask" autoplay controls muted loop playsinline height="100%">
-            <source src="./static/videos/mask.mp4"
-                    type="video/mp4">
-          </video>
-        </div>
-        <div class="item item-coffee">
-          <video poster="" id="coffee" autoplay controls muted loop playsinline height="100%">
-            <source src="./static/videos/coffee.mp4"
-                    type="video/mp4">
-          </video>
-        </div>
-        <div class="item item-toby">
-          <video poster="" id="toby" autoplay controls muted loop playsinline height="100%">
-            <source src="./static/videos/toby2.mp4"
+        <div class="item item-steve">
+          <video poster="" id="steve" autoplay controls muted loop playsinline height="100%">
+            <source src="./static/videos/mp4_inthewild_results/inthewild_2_web.mp4"
                     type="video/mp4">
           </video>
         </div>
       </div>
     </div>
+    <h2 class="subtitle has-text-centered">
+        We propose <strong>AnyCrowd</strong>, a versatile framework for multi-character animation, 
+        which supports animation of an arbitrary number of characters sourced from either single or multiple reference images.
+      </h2>
   </div>
 </section>
 
@@ -258,48 +269,59 @@
         <h2 class="title is-3">Abstract</h2>
         <div class="content has-text-justified">
           <p>
-            We present the first method capable of photorealistically reconstructing a non-rigidly
-            deforming scene using photos/videos captured casually from mobile phones.
+            Controllable character animation has advanced rapidly in recent years, yet multi-character animation remains underexplored. 
+            As the number of characters grows, multi-character reference encoding becomes more susceptible to latent identity entanglement, 
+            resulting in identity bleeding and reduced controllability. Moreover, 
+            learning precise and spatio-temporally consistent correspondences between reference identities and driving pose sequences becomes increasingly challenging, 
+            often leading to identity-pose mis-binding and inconsistency in generated videos. 
           </p>
           <p>
-            Our approach augments neural radiance fields
-            (NeRF) by optimizing an
-            additional continuous volumetric deformation field that warps each observed point into a
-            canonical 5D NeRF.
-            We observe that these NeRF-like deformation fields are prone to local minima, and
-            propose a coarse-to-fine optimization method for coordinate-based models that allows for
-            more robust optimization.
-            By adapting principles from geometry processing and physical simulation to NeRF-like
-            models, we propose an elastic regularization of the deformation field that further
-            improves robustness.
+            To address these challenges, we propose <strong>AnyCrowd</strong>, 
+            a Diffusion Transformer (DiT)-based video generation framework capable of scaling to an arbitrary number of characters.
+            Specifically, we first introduce an <strong>Instance-Isolated Latent Representation (IILR)</strong>, 
+            which encodes character instances independently prior to DiT processing to prevent latent identity entanglement.
+            Building on this disentangled representation, 
+            we further propose <strong>Tri-Stage Decoupled Attention (TSDA)</strong> to bind identities to driving poses by decomposing self-attention into: 
+            (i) instance-aware foreground attention, (ii) background-centric interaction, and (iii) global foreground-background coordination. 
+            Furthermore, to mitigate token ambiguity in overlapping regions, 
+            an <strong>Adaptive Gated Fusion (AGF)</strong> module is integrated within TSDA to predict identity-aware weights, 
+            effectively fusing competing token groups into identity-consistent representations.
           </p>
           <p>
-            We show that <span class="dnerf">Nerfies</span> can turn casually captured selfie
-            photos/videos into deformable NeRF
-            models that allow for photorealistic renderings of the subject from arbitrary
-            viewpoints, which we dub <i>"nerfies"</i>. We evaluate our method by collecting data
-            using a
-            rig with two mobile phones that take time-synchronized photos, yielding train/validation
-            images of the same pose at different viewpoints. We show that our method faithfully
-            reconstructs non-rigidly deforming scenes and reproduces unseen views with high
-            fidelity.
+            To validate effectiveness and scalability, we curate Multi-Character-Dancing-7K (<i>MCD-7K</i>), 
+            containing 7,384 clips (~31 hours) of 2--6 performers, and establish a held-out benchmark, <i>MCD-300</i>, 
+            featuring 2--9 characters per clip. 
+            Extensive experiments show that AnyCrowd outperforms state-of-the-art single- and multi-character baselines, 
+            with ablations confirming each component's contribution. Notably, 
+            AnyCrowd generalizes zero-shot to unseen crowd densities and supports flexible identity-motion recasting.
           </p>
         </div>
       </div>
     </div>
     <!--/ Abstract. -->
 
-    <!-- Paper video. -->
+    <!-- Paper Method. -->
     <div class="columns is-centered has-text-centered">
       <div class="column is-four-fifths">
-        <h2 class="title is-3">Video</h2>
-        <div class="publication-video">
-          <iframe src="https://www.youtube.com/embed/MrKrnHhk8IA?rel=0&amp;showinfo=0"
-                  frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+        <h2 class="title is-3">Method</h2>
+        <div class="publication-image">
+          <img src="./static/images/framework.png" alt="Method overview">
+        </div>
+        <div class="content has-text-justified">
+          <p>
+            Overview of AnyCrowd. 
+            (a) Instance-Isolated Latent Representation (IILR): 
+            The reference image with C identities is decoupled into C+1 isolated images and encoded into identity-decoupled reference tokens. 
+            (b) Architecture: AnyCrowd is built upon a dual-stream DiT architecture, 
+            where the Context and DiT branches process conditioning signals and perform iterative denoising. 
+            (c) Tri-Stage Decoupled Attention (TSDA): This mechanism facilitates explicit identity-pose binding during the self-attention process, 
+            incorporating an Adaptive Gated Fusion (AGF) module to adaptively fuse overlapping tokens from different categories.
+          </p>
+          </p>
         </div>
       </div>
     </div>
-    <!--/ Paper video. -->
+    <!--/ Paper method. -->
   </div>
 </section>
 
@@ -307,135 +329,399 @@
 <section class="section">
   <div class="container is-max-desktop">
 
-    <div class="columns is-centered">
-
-      <!-- Visual Effects. -->
-      <div class="column">
-        <div class="content">
-          <h2 class="title is-3">Visual Effects</h2>
-          <p>
-            Using <i>nerfies</i> you can create fun visual effects. This Dolly zoom effect
-            would be impossible without nerfies since it would require going through a wall.
-          </p>
-          <video id="dollyzoom" autoplay controls muted loop playsinline height="100%">
-            <source src="./static/videos/dollyzoom-stacked.mp4"
-                    type="video/mp4">
-          </video>
-        </div>
-      </div>
-      <!--/ Visual Effects. -->
-
-      <!-- Matting. -->
-      <div class="column">
-        <h2 class="title is-3">Matting</h2>
-        <div class="columns is-centered">
-          <div class="column content">
-            <p>
-              As a byproduct of our method, we can also solve the matting problem by ignoring
-              samples that fall outside of a bounding box during rendering.
-            </p>
-            <video id="matting-video" controls playsinline height="100%">
-              <source src="./static/videos/matting.mp4"
-                      type="video/mp4">
-            </video>
-          </div>
-
-        </div>
-      </div>
-    </div>
-    <!--/ Matting. -->
-
-    <!-- Animation. -->
+    <!-- qualitative comparison results. -->
     <div class="columns is-centered">
       <div class="column is-full-width">
-        <h2 class="title is-3">Animation</h2>
+        <h2 class="title is-3">Qualitative Comparison Results</h2>
 
-        <!-- Interpolating. -->
-        <h3 class="title is-4">Interpolating states</h3>
+        <!-- self driven setting. -->
+        <h3 class="title is-4">Self-Driven Setting Comparison</h3>
         <div class="content has-text-justified">
           <p>
-            We can also animate the scene by interpolating the deformation latent codes of two input
-            frames. Use the slider here to linearly interpolate between the left frame and the right
-            frame.
+            In the self-driven setting, the reference image and driving pose sequence are extracted from the same video.
           </p>
         </div>
-        <div class="columns is-vcentered interpolation-panel">
-          <div class="column is-3 has-text-centered">
-            <img src="./static/images/interpolate_start.jpg"
-                 class="interpolation-image"
-                 alt="Interpolate start reference image."/>
-            <p>Start Frame</p>
-          </div>
-          <div class="column interpolation-video-column">
-            <div id="interpolation-image-wrapper">
-              Loading...
+
+        <div class="hero-body">
+          <div class="container">
+            <div id="results-carousel" class="carousel results-carousel">
+              <div class="item item-steve">
+                <video poster="" id="steve" autoplay controls muted loop playsinline height="100%">
+                  <source src="./static/videos/mp4_comparison_results_selfdriven/comparison_0_web.mp4"
+                          type="video/mp4">
+                </video>
+              </div>
+              <div class="item item-chair-tp">
+                <video poster="" id="chair-tp" autoplay controls muted loop playsinline height="100%">
+                  <source src="./static/videos/mp4_comparison_results_selfdriven/comparison_1_web.mp4"
+                          type="video/mp4">
+                </video>
+              </div>
+              <div class="item item-chair-tp">
+                <video poster="" id="chair-tp" autoplay controls muted loop playsinline height="100%">
+                  <source src="./static/videos/mp4_comparison_results_selfdriven/comparison_2_web.mp4"
+                          type="video/mp4">
+                </video>
+              </div>
+              <div class="item item-chair-tp">
+                <video poster="" id="chair-tp" autoplay controls muted loop playsinline height="100%">
+                  <source src="./static/videos/mp4_comparison_results_selfdriven_appendix/comparison_0_web.mp4"
+                          type="video/mp4">
+                </video>
+              </div>
+              <div class="item item-steve">
+                <video poster="" id="steve" autoplay controls muted loop playsinline height="100%">
+                  <source src="./static/videos/mp4_comparison_results_selfdriven_appendix/comparison_1_web.mp4"
+                          type="video/mp4">
+                </video>
+              </div>
+              <div class="item item-steve">
+                <video poster="" id="steve" autoplay controls muted loop playsinline height="100%">
+                  <source src="./static/videos/mp4_comparison_results_selfdriven_appendix/comparison_2_web.mp4"
+                          type="video/mp4">
+                </video>
+              </div>
+              <div class="item item-steve">
+                <video poster="" id="steve" autoplay controls muted loop playsinline height="100%">
+                  <source src="./static/videos/mp4_comparison_results_selfdriven_appendix/comparison_3_web.mp4"
+                          type="video/mp4">
+                </video>
+              </div>
+              <div class="item item-steve">
+                <video poster="" id="steve" autoplay controls muted loop playsinline height="100%">
+                  <source src="./static/videos/mp4_comparison_results_selfdriven_appendix/comparison_4_web.mp4"
+                          type="video/mp4">
+                </video>
+              </div>
+              <div class="item item-steve">
+                <video poster="" id="steve" autoplay controls muted loop playsinline height="100%">
+                  <source src="./static/videos/mp4_comparison_results_selfdriven_appendix/comparison_5_web.mp4"
+                          type="video/mp4">
+                </video>
+              </div>
             </div>
-            <input class="slider is-fullwidth is-large is-info"
-                   id="interpolation-slider"
-                   step="1" min="0" max="100" value="0" type="range">
-          </div>
-          <div class="column is-3 has-text-centered">
-            <img src="./static/images/interpolate_end.jpg"
-                 class="interpolation-image"
-                 alt="Interpolation end reference image."/>
-            <p class="is-bold">End Frame</p>
           </div>
         </div>
-        <br/>
-        <!--/ Interpolating. -->
 
-        <!-- Re-rendering. -->
-        <h3 class="title is-4">Re-rendering the input video</h3>
+        <br/>
+        <!--/ cross driven setting. -->
+
+        <!-- cross driven setting. -->
+        <h3 class="title is-4">Cross-Driven Setting Comparison</h3>
         <div class="content has-text-justified">
           <p>
-            Using <span class="dnerf">Nerfies</span>, you can re-render a video from a novel
-            viewpoint such as a stabilized camera by playing back the training deformations.
+            In the cross-driven setting, the reference image and driving pose sequence are extracted from different videos with distinct identities. 
           </p>
         </div>
-        <div class="content has-text-centered">
-          <video id="replay-video"
-                 controls
-                 muted
-                 preload
-                 playsinline
-                 width="75%">
-            <source src="./static/videos/replay.mp4"
-                    type="video/mp4">
-          </video>
+
+        <div class="hero-body">
+          <div class="container">
+            <div id="results-carousel" class="carousel results-carousel">
+              <div class="item item-steve">
+                <video poster="" id="steve" autoplay controls muted loop playsinline height="100%">
+                  <source src="./static/videos/mp4_comparison_results_crossdriven/comparison_0_web.mp4"
+                          type="video/mp4">
+                </video>
+              </div>
+              <div class="item item-chair-tp">
+                <video poster="" id="chair-tp" autoplay controls muted loop playsinline height="100%">
+                  <source src="./static/videos/mp4_comparison_results_crossdriven/comparison_1_web.mp4"
+                          type="video/mp4">
+                </video>
+              </div>
+              <div class="item item-chair-tp">
+                <video poster="" id="chair-tp" autoplay controls muted loop playsinline height="100%">
+                  <source src="./static/videos/mp4_comparison_results_crossdriven/comparison_2_web.mp4"
+                          type="video/mp4">
+                </video>
+              </div>
+              <div class="item item-chair-tp">
+                <video poster="" id="chair-tp" autoplay controls muted loop playsinline height="100%">
+                  <source src="./static/videos/mp4_comparison_results_crossdriven_appendix/comparison_0_web.mp4"
+                          type="video/mp4">
+                </video>
+              </div>
+              <div class="item item-steve">
+                <video poster="" id="steve" autoplay controls muted loop playsinline height="100%">
+                  <source src="./static/videos/mp4_comparison_results_crossdriven_appendix/comparison_1_web.mp4"
+                          type="video/mp4">
+                </video>
+              </div>
+              <div class="item item-steve">
+                <video poster="" id="steve" autoplay controls muted loop playsinline height="100%">
+                  <source src="./static/videos/mp4_comparison_results_crossdriven_appendix/comparison_2_web.mp4"
+                          type="video/mp4">
+                </video>
+              </div>
+              <div class="item item-steve">
+                <video poster="" id="steve" autoplay controls muted loop playsinline height="100%">
+                  <source src="./static/videos/mp4_comparison_results_crossdriven_appendix/comparison_3_web.mp4"
+                          type="video/mp4">
+                </video>
+              </div>
+              <div class="item item-steve">
+                <video poster="" id="steve" autoplay controls muted loop playsinline height="100%">
+                  <source src="./static/videos/mp4_comparison_results_crossdriven_appendix/comparison_4_web.mp4"
+                          type="video/mp4">
+                </video>
+              </div>
+              <div class="item item-steve">
+                <video poster="" id="steve" autoplay controls muted loop playsinline height="100%">
+                  <source src="./static/videos/mp4_comparison_results_crossdriven_appendix/comparison_5_web.mp4"
+                          type="video/mp4">
+                </video>
+              </div>
+            </div>
+          </div>
         </div>
-        <!--/ Re-rendering. -->
+
+        <br/>
+        <!--/ cross driven setting. -->
 
       </div>
     </div>
-    <!--/ Animation. -->
+    <!--/ qualitative comparison results. -->
 
 
-    <!-- Concurrent Work. -->
+
+    <!-- application results. -->
     <div class="columns is-centered">
       <div class="column is-full-width">
-        <h2 class="title is-3">Related Links</h2>
+        <h2 class="title is-3">Application Results</h2>
 
+        <!-- one-to-many animation. -->
+        <h3 class="title is-4">One-to-Many Animation</h3>
         <div class="content has-text-justified">
           <p>
-            There's a lot of excellent work that was introduced around the same time as ours.
-          </p>
-          <p>
-            <a href="https://arxiv.org/abs/2104.09125">Progressive Encoding for Neural Optimization</a> introduces an idea similar to our windowed position encoding for coarse-to-fine optimization.
-          </p>
-          <p>
-            <a href="https://www.albertpumarola.com/research/D-NeRF/index.html">D-NeRF</a> and <a href="https://gvv.mpi-inf.mpg.de/projects/nonrigid_nerf/">NR-NeRF</a>
-            both use deformation fields to model non-rigid scenes.
-          </p>
-          <p>
-            Some works model videos with a NeRF by directly modulating the density, such as <a href="https://video-nerf.github.io/">Video-NeRF</a>, <a href="https://www.cs.cornell.edu/~zl548/NSFF/">NSFF</a>, and <a href="https://neural-3d-video.github.io/">DyNeRF</a>
-          </p>
-          <p>
-            There are probably many more by the time you are reading this. Check out <a href="https://dellaert.github.io/NeRF/">Frank Dellart's survey on recent NeRF papers</a>, and <a href="https://github.com/yenchenlin/awesome-NeRF">Yen-Chen Lin's curated list of NeRF papers</a>.
+            AnyCrowd can easily animate one reference character with multiple driving pose sequences.
           </p>
         </div>
+
+        <div class="hero-body">
+          <div class="container">
+            <div id="results-carousel" class="carousel results-carousel">
+              <div class="item item-steve">
+                <video poster="" id="steve" autoplay controls muted loop playsinline height="100%">
+                  <source src="./static/videos/mp4_single2multi_results/single2multi_0_web.mp4"
+                          type="video/mp4">
+                </video>
+              </div>
+              <div class="item item-chair-tp">
+                <video poster="" id="chair-tp" autoplay controls muted loop playsinline height="100%">
+                  <source src="./static/videos/mp4_single2multi_results_appendix/single2multi_0_web.mp4"
+                          type="video/mp4">
+                </video>
+              </div>
+              <div class="item item-steve">
+                <video poster="" id="steve" autoplay controls muted loop playsinline height="100%">
+                  <source src="./static/videos/mp4_single2multi_results_webpage/single2multi_0_web.mp4"
+                          type="video/mp4">
+                </video>
+              </div>
+              <div class="item item-steve">
+                <video poster="" id="steve" autoplay controls muted loop playsinline height="100%">
+                  <source src="./static/videos/mp4_single2multi_results_webpage/single2multi_2_web.mp4"
+                          type="video/mp4">
+                </video>
+              </div>
+              <div class="item item-steve">
+                <video poster="" id="steve" autoplay controls muted loop playsinline height="100%">
+                  <source src="./static/videos/mp4_single2multi_results_appendix/single2multi_1_web.mp4"
+                          type="video/mp4">
+                </video>
+              </div>
+              <div class="item item-steve">
+                <video poster="" id="steve" autoplay controls muted loop playsinline height="100%">
+                  <source src="./static/videos/mp4_single2multi_results_webpage/single2multi_1_web.mp4"
+                          type="video/mp4">
+                </video>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <br/>
+        <!-- one-to-many animation. -->
+
+        <!-- many-to-one animation. -->
+        <h3 class="title is-4">Many-to-One Animation</h3>
+        <div class="content has-text-justified">
+          <p>
+            AnyCrowd can easily animate multiple distinct reference characters with single driving pose sequences.
+          </p>
+        </div>
+
+        <div class="hero-body">
+          <div class="container">
+            <div id="results-carousel" class="carousel results-carousel">
+              <div class="item item-steve">
+                <video poster="" id="steve" autoplay controls muted loop playsinline height="100%">
+                  <source src="./static/videos/mp4_multi2single_results/multi2single_0_web.mp4"
+                          type="video/mp4">
+                </video>
+              </div>
+              <div class="item item-chair-tp">
+                <video poster="" id="chair-tp" autoplay controls muted loop playsinline height="100%">
+                  <source src="./static/videos/mp4_multi2single_results_appendix/multi2single_0_web.mp4"
+                          type="video/mp4">
+                </video>
+              </div>
+              <div class="item item-steve">
+                <video poster="" id="steve" autoplay controls muted loop playsinline height="100%">
+                  <source src="./static/videos/mp4_multi2single_results_appendix/multi2single_1_web.mp4"
+                          type="video/mp4">
+                </video>
+              </div>
+              <div class="item item-steve">
+                <video poster="" id="steve" autoplay controls muted loop playsinline height="100%">
+                  <source src="./static/videos/mp4_multi2single_results_webpage/multi2single_0_web.mp4"
+                          type="video/mp4">
+                </video>
+              </div>
+              <div class="item item-steve">
+                <video poster="" id="steve" autoplay controls muted loop playsinline height="100%">
+                  <source src="./static/videos/mp4_multi2single_results_webpage/multi2single_2_web.mp4"
+                          type="video/mp4">
+                </video>
+              </div>
+              <div class="item item-steve">
+                <video poster="" id="steve" autoplay controls muted loop playsinline height="100%">
+                  <source src="./static/videos/mp4_multi2single_results_webpage/multi2single_1_web.mp4"
+                          type="video/mp4">
+                </video>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <br/>
+        <!-- many-to-one animation. -->
+
+        <!-- ID-Pose Reassignment Animation. -->
+        <h3 class="title is-4">ID-Pose Reassignment Animation</h3>
+        <div class="content has-text-justified">
+          <p>
+            AnyCrowd supports arbitrary assignments between IDs and pose sequences.
+          </p>
+        </div>
+
+        <div class="hero-body">
+          <div class="container">
+            <div id="results-carousel" class="carousel results-carousel">
+              <div class="item item-chair-tp">
+                <video poster="" id="chair-tp" autoplay controls muted loop playsinline height="100%">
+                  <source src="./static/videos/mp4_repose_results_webpage/repose_vertical_white_padding_4_web.mp4"
+                          type="video/mp4">
+                </video>
+              </div>
+              <div class="item item-steve">
+                <video poster="" id="steve" autoplay controls muted loop playsinline height="100%">
+                  <source src="./static/videos/mp4_repose_results_webpage/repose_vertical_white_padding_0_web.mp4"
+                          type="video/mp4">
+                </video>
+              </div>
+              <div class="item item-steve">
+                <video poster="" id="steve" autoplay controls muted loop playsinline height="100%">
+                  <source src="./static/videos/mp4_repose_results_webpage/repose_vertical_white_padding_5_web.mp4"
+                          type="video/mp4">
+                </video>
+              </div>
+              <div class="item item-chair-tp">
+                <video poster="" id="chair-tp" autoplay controls muted loop playsinline height="100%">
+                  <source src="./static/videos/mp4_repose_results_webpage/repose_vertical_white_padding_6_web.mp4"
+                          type="video/mp4">
+                </video>
+              </div>
+              <div class="item item-chair-tp">
+                <video poster="" id="chair-tp" autoplay controls muted loop playsinline height="100%">
+                  <source src="./static/videos/mp4_repose_results_webpage/repose_vertical_white_padding_7_web.mp4"
+                          type="video/mp4">
+                </video>
+              </div>
+              <div class="item item-steve">
+                <video poster="" id="steve" autoplay controls muted loop playsinline height="100%">
+                  <source src="./static/videos/mp4_repose_results_webpage/repose_vertical_white_padding_2_web.mp4"
+                          type="video/mp4">
+                </video>
+              </div>
+              <div class="item item-chair-tp">
+                <video poster="" id="chair-tp" autoplay controls muted loop playsinline height="100%">
+                  <source src="./static/videos/mp4_repose_results_webpage/repose_vertical_white_padding_3_web.mp4"
+                          type="video/mp4">
+                </video>
+              </div>
+              <div class="item item-chair-tp">
+                <video poster="" id="chair-tp" autoplay controls muted loop playsinline height="100%">
+                  <source src="./static/videos/mp4_repose_results_webpage/repose_vertical_white_padding_1_web.mp4"
+                          type="video/mp4">
+                </video>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <br/>
+        <!-- ID-Pose Reassignment Animation. -->
+
+
+        <!-- Long Video Animation. -->
+        <h3 class="title is-4">Long Video Animation</h3>
+        <div class="content has-text-justified">
+          <p>
+            Although AnyCrowd is trained on 49-frame sequences, it is able to generate 98-frame videos during inference through a sliding-window mechanism.
+          </p>
+        </div>
+
+        <div class="hero-body">
+          <div class="container">
+            <div id="results-carousel" class="carousel results-carousel">
+              <div class="item item-steve">
+                <video poster="" id="steve" autoplay controls muted loop playsinline height="100%">
+                  <source src="./static/videos/mp4_long_results_appendix/long_0_web.mp4"
+                          type="video/mp4">
+                </video>
+              </div>
+              <div class="item item-chair-tp">
+                <video poster="" id="chair-tp" autoplay controls muted loop playsinline height="100%">
+                  <source src="./static/videos/mp4_long_results_appendix/long_1_web.mp4"
+                          type="video/mp4">
+                </video>
+              </div>
+              <div class="item item-steve">
+                <video poster="" id="steve" autoplay controls muted loop playsinline height="100%">
+                  <source src="./static/videos/mp4_long_results_appendix/long_2_web.mp4"
+                          type="video/mp4">
+                </video>
+              </div>
+              <div class="item item-chair-tp">
+                <video poster="" id="chair-tp" autoplay controls muted loop playsinline height="100%">
+                  <source src="./static/videos/mp4_long_results_appendix/long_3_web.mp4"
+                          type="video/mp4">
+                </video>
+              </div>
+              <div class="item item-steve">
+                <video poster="" id="steve" autoplay controls muted loop playsinline height="100%">
+                  <source src="./static/videos/mp4_long_results_appendix/long_4_web.mp4"
+                          type="video/mp4">
+                </video>
+              </div>
+              <div class="item item-chair-tp">
+                <video poster="" id="chair-tp" autoplay controls muted loop playsinline height="100%">
+                  <source src="./static/videos/mp4_long_results_appendix/long_5_web.mp4"
+                          type="video/mp4">
+                </video>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <br/>
+        <!-- Long Video Animation. -->
+
+
       </div>
     </div>
-    <!--/ Concurrent Work. -->
+    <!-- application results. -->
 
   </div>
 </section>
@@ -445,10 +731,10 @@
   <div class="container is-max-desktop content">
     <h2 class="title">BibTeX</h2>
     <pre><code>@article{park2021nerfies,
-  author    = {Park, Keunhong and Sinha, Utkarsh and Barron, Jonathan T. and Bouaziz, Sofien and Goldman, Dan B and Seitz, Steven M. and Martin-Brualla, Ricardo},
-  title     = {Nerfies: Deformable Neural Radiance Fields},
-  journal   = {ICCV},
-  year      = {2021},
+  author    = {Xie, Zhenyu and Xia, Ji and Kampffmeyer, Michael and Hu, Panwen and Ma, Zehua and Zheng, Yujian and Wang, Jing and Chong, Zheng and Zhang, Xujie and Cheng, Xianhang and Liang, Xiaodan and Li, Hao},
+  title     = {AnyCrowd: Instance-Isolated Identity-Pose Binding for Arbitrary Multi-Character Animation},
+  journal   = {},
+  year      = {2026},
 }</code></pre>
   </div>
 </section>

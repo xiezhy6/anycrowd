@@ -2,6 +2,12 @@ body {
   font-family: 'Noto Sans', sans-serif;
 }
 
+.title-icon {
+  width: 60px;
+  height: 60px;
+  vertical-align: middle;
+  margin-right: 10px;
+}
 
 .footer .icon-link {
     font-size: 25px;
