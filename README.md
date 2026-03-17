@@ -1,6 +1,6 @@
 # AnyCrowd
 
-This is the repository that contains source code for the [AnyCrowd website](https://nerfies.github.io).
+This is the repository that contains source code for the [AnyCrowd website](https://xiezhy6.github.io/anycrowd/).
 
 If you find Nerfies useful for your work please cite:
 ```
