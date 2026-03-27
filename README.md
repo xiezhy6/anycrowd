@@ -7,7 +7,7 @@ If you find Nerfies useful for your work please cite:
 @article{xie2026anycrowd
   author    = {Xie, Zhenyu and Xia, Ji and Kampffmeyer, Michael and Hu, Panwen and Ma, Zehua and Zheng, Yujian and Wang, Jing and Chong, Zheng and Zhang, Xujie and Cheng, Xianhang and Liang, Xiaodan and Li, Hao},
   title     = {AnyCrowd: Instance-Isolated Identity-Pose Binding for Arbitrary Multi-Character Animation},
-  journal   = {},
+  journal   = {arXiv preprint arXiv:2603.15415},
   year      = {2026},
 }
 ```
